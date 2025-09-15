@@ -2,7 +2,7 @@
 
 	morse2dur {
 
-		arg dit_dur_on, dit_dur_off=dit_dur_on;
+		arg dit_dur_on=1, dit_dur_off=dit_dur_on;
 		var text, morse=Morse.morsedict, returnlist;
 
 		// convert to symbols
